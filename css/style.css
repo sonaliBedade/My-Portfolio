@@ -1,0 +1,211 @@
+body {
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Verdana", "sans-serif";
+	padding: 0;
+	margin 0;
+}
+
+.nav {
+	overflow: hidden;
+	background: #222831;
+	margin: -7px;
+}
+
+.nav a {
+	color: #f8f7de;
+	text-align: center;
+	padding: 20px 70px;
+	font-size: 14px;
+	width: 100px;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	background: #790c5a;
+	color: #f8f7de;
+}
+
+.box {
+	background-color: rgba(121, 12, 90, 0.5);
+	text-align: center;
+	padding: 50px;
+	margin-top: 140px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+#hey {
+	font-family: "Verdana";
+	font-size: 40px;
+	color: #f8f7de;
+}
+
+#name {
+	font-family: "Lucida Handwriting","Lucida Console","Verdana";
+	font-size: 40px;
+	color: #f8f7de;
+	font-weight: bold;
+}
+
+.content {
+	font-family: "Verdana","sans-serif";
+	font-size: 16px;
+	color: #f8f7de;
+	text-align: center;
+}
+
+.back {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: (121, 12, 90, 0.5);
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.7);
+	font-family: "Verdana","sans-serif";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 70px;
+    margin-top: 100px;
+    color: #654062;
+}
+
+.card:hover {
+	background-color: rgba(121, 12, 90, 0.5);
+}
+
+.certification-head {
+	font-family: "serif";
+	font-size: 30px;
+	text-align: center;
+	color: #654062;
+}
+
+.block-certification {
+	background-color: (121, 12, 90, 0.5);
+	text-align: center;
+    padding: 50px;
+	margin-top: 12px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-bottom: 100px;
+	position: relative;
+	color: #654062;
+}
+
+.projects {
+	font-family: "serif";
+	font-size: 30px;
+	text-align: center;
+	color: #654062;
+}
+
+.block-projects {
+	text-align: center;
+	color: #654062;
+	margin-top: 12px;
+	margin-left: 450px;
+	margin-right: 470px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.experience {
+	font-family: "serif";
+	font-size: 30px;
+	text-align: center;
+	color: #654062;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.block-experience {
+	text-align: center;
+	color: #654062;
+	margin-top: 12px;
+	margin-left: 450px;
+	margin-right: 470px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.bg {
+	background-color: rgba(121, 12, 90, 0.5);
+	text-align: center;
+	padding: 10px;
+	margin-top: 80px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-bottom: 100px;
+	position: relative;
+	font-family: "serif";
+	font-size: 30px;
+	color: white;
+}
+
+.block-icon {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding : 10px;
+}
+
+.icon a:hover {
+	color: #654062;
+}
+
+.icon {
+	text-decoration-color: #583d72;
+}
+
+.input-box {
+	position: relative;
+	box-sizing: border-box;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contact-form h2 {
+	color: #654062;
+}
+
+.contact-form .input-box {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+	width: 25%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 200px 10px 200px;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+
+.contact-form .input-box span {
+	position: relative;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 200px 10px 200px;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #654062;
+}
